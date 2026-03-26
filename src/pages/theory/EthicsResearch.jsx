@@ -31,68 +31,55 @@ export default function EthicsResearch() {
         component="h1"
         sx={{ mb: 1, fontWeight: "bold" }}
       >
-        Conducting Educational Research
+        Faire une Recherche Éducative
       </Typography>
       <Typography
         variant="h5"
         component="h2"
         sx={{ mb: 3, color: "text.secondary" }}
       >
-        Ethical Considerations in Research
+        Considérations Éthiques dans la Recherche
       </Typography>
 
       <Typography paragraph>
-        Educational researchers, as well as researchers from all other domains,
-        must consider the ethical principles of right and wrong in relation to
-        their research study. The American Psychological Association (APA), as
-        well as other research bodies, have developed ethical standards in
-        conducting research. APA's code of ethics can be read here.
+        Les chercheurs éducatifs doivent considérer les principes éthiques du
+        bien et du mal. L'APA (American Psychological Association) et d'autres
+        organisations ont développé des standards éthiques pour la recherche.
       </Typography>
 
       <Typography paragraph>
-        There are three areas that researchers must consider in terms of ethics:
+        Il y a trois domaines que les chercheurs doivent considérer en matière
+        d'éthique:
       </Typography>
 
       <List>
         <ListItem>
-          <ListItemText primary="Data Collection and Analysis" />
+          <ListItemText primary="Collecte et analyse des données" />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Treatment of Participants" />
+          <ListItemText primary="Traitement des participants" />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Responsibility to Society" />
+          <ListItemText primary="Responsabilité envers la société" />
         </ListItem>
       </List>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Data Collection and Analysis
+        Collecte et Analyse des Données
       </Typography>
       <Typography paragraph>
-        Each researcher has a fundamental responsibility to ensure that their
-        data are reliable and trustworthy. Educational research studies can and
-        should have a significant impact on educational practices, so it is of
-        paramount importance that data collection and analysis be conducted in a
-        fashion that is both honest and proficient. Intellectual integrity is
-        the foundational principle upon which science stands. To this end,
-        researchers must have an attitude that puts pursuit of knowledge above
-        personal gain and be willing to admit error. Furthermore, researchers
-        must be completely honest and forthright in their reporting and analysis
-        of data. Below are some unethical practices as related to data
-        collection and analysis.
+        Chaque chercheur a une responsabilité fondamentale d'assurer que ses
+        données sont fiables. L'intégrité intellectuelle est le fondement de la
+        science. Les chercheurs doivent être honnêtes et directs dans leurs
+        rapports et analyses.
       </Typography>
 
       <Typography variant="subtitle1" sx={{ mt: 3, mb: 1 }}>
-        Data Fabrication
+        Données Fabriquées
       </Typography>
       <Typography paragraph>
-        Data fabrication simply means making up data. Making up data is
-        completely unethical. I have supervised students who obviously completed
-        every questionnaire themselves. Not only is this lazy, but this is
-        absolutely, fundamentally wrong in every possible sense. Nothing
-        justifies data fabrication, ever, in any circumstance. If left
-        unchecked, this student would have drawn conclusions and made
-        recommendations in their final report that were unfounded.
+        Fabriquer des données signifie inventer des données. C'est complètement
+        non éthique et fondamentalement mauvais.
       </Typography>
       <Typography paragraph>
         Research projects are a permanent record that can influence subsequent
@@ -135,19 +122,13 @@ export default function EthicsResearch() {
       </Typography>
 
       <Typography variant="subtitle1" sx={{ mt: 3, mb: 1 }}>
-        Data Falsification
+        Fausseté de Données
       </Typography>
       <Typography paragraph>
-        It is also unethical to manipulate data in such a way that the results
-        do not accurately represent actual findings. For example, I have seen
-        some students report that 200 students completed the questionnaire when
-        only 197 questionnaires were returned. Misrepresenting the number of
-        completed questionnaires is data falsification and is also unethical.
-        Here, the researcher should report that 200 questionnaires were
-        distributed, but only 197 were returned. The accepted rate for
-        questionnaire response rate is about 60%, so this is still a very good
-        response rate! You must accurately state how many questionnaires were
-        completed.
+        C'est aussi non éthique de manipuler les données pour que les résultats
+        ne représentent pas véritablement les conclusions. Par exemple,
+        rapporter que 200 éléves ont répondu quand seulement 197 ont répondu est
+        non éthique.
       </Typography>
       <Typography paragraph>
         Other times, a researcher might be tempted to exclude participants whose
@@ -175,19 +156,11 @@ export default function EthicsResearch() {
       </Typography>
 
       <Typography variant="subtitle1" sx={{ mt: 3, mb: 1 }}>
-        Plagiarism
+        Plagia t
       </Typography>
       <Typography paragraph>
-        Plagiarism means using another person's ideas, results, or words without
-        proper credit. Plagiarism is a serious problem in Nigeria, and I believe
-        that it is largely a problem of misunderstanding what constitutes
-        acceptable writing practices. "The expression of original ideas is
-        considered intellectual property and is protected by copyright laws"
-        (plagiarism.org). This means that in academic work, every sentence in
-        your paper - except those in quotation marks - is expected to be your
-        original words. Copying words from another source without quoting, as
-        well as copying ideas from another source without citing is ILLEGAL,
-        UNETHICAL, and UNACCEPTABLE.
+        Le plagiat signifie utiliser les idées ou les mots d'une autre personne
+        sans donner le crédit. C'est ilégal et non éthique.
       </Typography>
       <Typography paragraph>
         According to plagiarism.org, the following behaviors are considered
@@ -228,74 +201,43 @@ export default function EthicsResearch() {
       </List>
 
       <Typography variant="subtitle1" sx={{ mt: 3, mb: 1 }}>
-        Carelessness
+        Négligence
       </Typography>
       <Typography paragraph>
-        Finally, simple carelessness is unethical in scientific research. This
-        may be the result of sloppy errors in data collection, careless when
-        entering data into the computer, or maybe accidentally typing the wrong
-        number when reporting the statistics in the report. A careless error is
-        unethical regardless of whether it was done due to of lack of attention,
-        ignorance, or on purpose. To conduct research with the highest standards
-        of ethics, a researcher must be continually vigilant to prevent errors,
-        must ask questions of experts when they do not understand something, and
-        must make a continual effort to keep their research free from dishonest
-        practices.
+        La simple négligence est non éthique. Un chercheur doit être vigilant
+        pour prévenir les erreurs et poser des questions quand il ne comprend
+        pas quelque chose.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Treatment of Participants
+        Traitement des Participants
       </Typography>
       <Typography paragraph>
-        Because educational research is conducted on human beings, educational
-        researchers must be aware of how their research may impact the
-        fundamental human rights of the participants in the study. The following
-        are accepted practices that must be met when conducting research with
-        human participants.
+        Parce que la recherche éducative est conduite sur des êtres humains, les
+        chercheurs doivent être conscients comment leur recherche peut impacter
+        les droits humains des participants.
       </Typography>
 
       <Typography variant="subtitle1" sx={{ mt: 3, mb: 1 }}>
-        Voluntary Participation
+        Participation Volontaire
       </Typography>
       <Typography paragraph>
-        Individuals must not be forced to participate in a research study. In
-        Nazi Germany, Jews and other prisoners of concentration camps were
-        forced to participate in harmful research studies. This clearly violated
-        these individuals' human rights. Along the same lines, forcing a child
-        to complete a counseling treatment, or even complete a questionnaire,
-        violates their right of choice. Therefore, participants must be allowed
-        to choose whether to participate in the study or not. Some individuals
-        will indeed choose not to participate, so a researcher must honor that
-        decision.
+        Les individus ne doivent pas être forcés de participer. Les participants
+        doivent être libres de refuser ou de se retirer à tout moment.
       </Typography>
       <Typography paragraph>
-        Participants must be aware that they are free to limit their
-        participation in the research study, or withdraw their participation
-        altogether at any time. If there is an item on a questionnaire that the
-        participant does not want to answer because it makes them feel
-        uncomfortable, they are free to skip it. If there is an aspect of the
-        treatment that they do not feel comfortable with, they are free to sit
-        out. Furthermore, if the research study is making them uncomfortable,
-        they are free to quit the study. Researchers may make a gentle attempt
-        to persuade them to continue their participation by convincing them of
-        the importance of the study, but they must honor the participant's
-        wishes to withdraw if they persist. The researcher needs to make a note
-        that the participant withdrew and the reason, if possible, to report in
-        the Sample section of the study.
+        Les participants doivent savoir qu'ils sont libres de limiter ou de
+        retirer leur participation à tout moment. Si un élément du questionnaire
+        les met mal à l'aise, ils peuvent l'ignorer.
       </Typography>
 
       <Typography variant="subtitle1" sx={{ mt: 3, mb: 1 }}>
-        Privacy
+        Confidentialité
       </Typography>
       <Typography paragraph>
-        Participants also have the fundamental right of privacy. This means that
-        participants get to decide when, where, to whom, and to what extent
-        their attitudes, beliefs, and behaviors will be shared. Unless a
-        participant explicitly agrees in writing that their name and responses
-        can be publicly shared, then a researcher has an ethical responsibility
-        to protect the privacy of their participants. In social science
-        research, privacy typically takes the form of either anonymity or
-        confidentiality.
+        Les participants ont le droit de confidentialité. Les données doivent
+        être protégées et personn%es d'autres que les chercheurs ne doivent y
+        avoir accès.
       </Typography>
       <List>
         <ListItem>
@@ -307,16 +249,12 @@ export default function EthicsResearch() {
       </List>
 
       <Typography variant="subtitle1" sx={{ mt: 3, mb: 1 }}>
-        Informed Consent
+        Consentement Informé
       </Typography>
       <Typography paragraph>
-        Participants must also be fully informed about procedures and potential
-        risks of the research and must give their informed consent to
-        participate. Not only must people participate in the study voluntarily,
-        but they also must understand enough of the purposes of the study to
-        make an informed decision about whether they would like to participate.
-        To make an informed consent (agreement), participants should be informed
-        of four primary parts of the research:
+        Les participants doivent être fully informés sur les procédures et les
+        risques potentiels. Ils doivent donner leur consentement informé pour
+        participer.
       </Typography>
       <List>
         <ListItem>
@@ -345,26 +283,12 @@ export default function EthicsResearch() {
       </List>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Responsibility to Society
+        Responsabilité envers la Société
       </Typography>
       <Typography paragraph>
-        Society at large has the right to research that is conducted as
-        neutrally as possible. Sometimes researchers have a conflict of interest
-        in the research they are conducting. Perhaps they have spent hours upon
-        hours developing a counseling program and want to provide evidence that
-        the counseling program is effective and their work has not been in vain.
-        Maybe a researcher has developed a new textbook and will financially
-        benefit if the textbook is found to greatly improve learning outcomes.
-        These biases can have a significant impact on how a research study is
-        designed, the participants selected, the instruments used, how data is
-        analyzed, and the final conclusions that are drawn. However, society has
-        a right for research to be as "value-free" as possible and not hampered
-        by the biases of researchers. As a researcher, you need to be aware of
-        the biases you may have - perhaps biases as explicit as financial gain,
-        but also biases as implicit as simply wanting to provide evidence that
-        your way of thinking is correct. Before embarking on a research study,
-        spend time thinking about what biases you may have, and make those
-        biases explicit in your report.
+        La société a droit à une recherche conduite aussi neutralement que
+        possible. Parfois, les chercheurs ont un conflit d'intérêt. Ils doivent
+        être conscients de leurs biais.
       </Typography>
       <Typography paragraph>
         Also, researchers need to be aware of how their research may be used

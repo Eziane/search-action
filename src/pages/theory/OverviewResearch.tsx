@@ -4,144 +4,144 @@ export default function OverviewResearch() {
   return (
     <Box component="section" sx={{ maxWidth: "800px", mx: "auto", p: 3 }}>
       <Typography variant="h4" component="h1" sx={{ mb: 1, fontWeight: "bold" }}>
-        Conducting Educational Research
+        Faire une Recherche Éducative
       </Typography>
       <Typography variant="h5" component="h2" sx={{ mb: 3, color: "text.secondary" }}>
-        Overview to Writing a Research Paper
+        Guide pour Écrire un Travail de Recherche
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Conceptualize the Research Study First
+        Commencez par Concevoir votre Étude
       </Typography>
       <Typography paragraph>
-        Just like the bible is rarely read from the beginning to the end, so too is a research study rarely written from beginning to end. Determining the research methods before writing the rest of the paper will help the entire paper to be more focused. It would be a shame to spend hours creating well written Chapters 1 and 2 only to realize that there is no way to actually conduct the research study! Furthermore, when you know your research methods, then you can build a stronger argument for the rationale of the study that is necessary in Chapters 1 and 2. Therefore, begin writing your research project by writing the Purpose and Research Questions/Hypotheses from Chapter 1. Then write the entire Methods Section, Chapter 3. Once these three or four sections are well developed, then it is easier and more efficient to write the rest of Chapter 1 and Chapter 2. The guidelines in the Steps in Conducting Scientific Research will help you accomplish this.
+        Comme la Bible, une recherche ne se lit pas toujours du début à la fin. Il est important de planifier les méthodes d'abord. Cela aide à rendre tout le travail plus cohérent. Il serait dommage d'écrire les chapitres 1 et 2 sans savoir comment faire l'étude! D'abord, écrivez vos objectifs de recherche et vos questions. Puis écrivez les méthodes. Ensuite, écrivez le reste de votre travail. Les étapes de la recherche scientifique vous aideront à faire cela.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Revise, Revise, Revise
+        Corrigez, Corrigez, Corrigez
       </Typography>
       <Typography paragraph>
-        Writing is not a one-way process. You must reread and revise your paper many times before it will become a high-quality work. As a general rule, each chapter should be revised at least two times before submitting it to your supervisor. I oftentimes feel like I revise my students' work more than they do! When completing my thesis, I would revise each chapter at least five times before resubmitting it to my supervisor. In addition to revising your own work, partner with at least one other student and make suggestions on each other's work. This helps you get additional perspectives on what you have written.
+        L'écriture n'est pas un processus unique. Vous devez relire et corriger votre travail plusieurs fois pour le rendre de bonne qualité. En général, chaque chapitre doit être corrigé au moins deux fois avant de le remettre à votre professeur. Quand je rédige, je corrige chaque chapitre au moins cinq fois! Demandez aussi à un ami de relire votre travail. Cela vous aide à voir vos erreurs.
       </Typography>
       <Typography paragraph>
-        Each chapter will be returned by your supervisor multiple times with suggestions. This is a natural part of the writing process. Only the sections with feedback noted by your supervisor have to be completely changed. The sections that the supervisor does not comment on do not need major changes. Continue rereading the sections with no comments for minor wording changes, but you do not need to make substantial changes to these sections. Instead, focus your energy on changing the sections that have comments by your supervisor.
+        Votre professeur vous renverra votre travail plusieurs fois avec des conseils. C'est normal. Seules les sections avec des commentaires doivent être vraiment changées. Les sections sans commentaires n'ont besoin que de petits changements. Focalisez-vous sur les sections avec des remarques.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Avoid Plagiarism
+        Évitez le Plagiat
       </Typography>
       <Typography paragraph>
-        Plagiarism is a serious, dishonest offense that is not only unethical, but can result in expulsion from the university. Plagiarism is any attempt to present another person's ideas or words as your own. According to plagiarism.org, the following behaviors are considered plagiarism:
+        Le plagiat est une tricherie grave. C'est quand vous présentez les idées d'une autre personne comme les vôtres. Voici ce qui est considéré comme du plagiat:
       </Typography>
       <List>
         <ListItem>
-          <ListItemText primary="Turning in someone else's work as your own." />
+          <ListItemText primary="Remettre le travail de quelqu'un d'autre comme le vôtre." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Copying words or ideas from another work without giving credit. Any idea that does not come directly from your mind must be referenced. For example, the statement 'Piaget proposed four stages of cognitive development' must be referenced because this was not your original idea." />
+          <ListItemText primary="Copier des mots ou des idées d'un autre travail sans donner le crédit. Toute idée qui ne vient pas de votre esprit doit être référencée." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Giving incorrect information about the source of a quotation. If you did not read the original work, then reference the original work 'as cited in' and include the paper you read in the references section." />
+          <ListItemText primary="Donner une mauvaise information sur la source d'une citation. Si vous n'avez pas lu l'original, référencez 'tel que cité dans'." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Failing to put a direct quote in quotation marks. All words in a paper must be your own. Any direct quotes must be put in quotation marks!" />
+          <ListItemText primary="Ne pas mettre une citation directe entre guillemets. Tous les mots doivent être les vôtres!" />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Changing the words but copying the sentence structure of another work without giving credit. To avoid this, do not take notes word-for word when reading a paper. Instead, summarize the key points in your notes." />
+          <ListItemText primary="Changer les mots mais copier la structure de la phrase d'un autre travail sans donner le crédit." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Copying so many words or ideas from another work that it makes the majority of your paper, regardless of whether you give credit or not. This can be avoided by outlining the literature review before finding literature to be reviewed." />
+          <ListItemText primary="Copier autant de mots ou d'idées que la majorité de votre travail soit du plagiat." />
         </ListItem>
       </List>
       <Typography paragraph>
-        When using other sources, you must paraphrase what is written in your own words and then reference the point by putting the author's name and date in brackets, for example: (Korb, 2008) and then put the complete reference in the References section. Avoid using direct quotes unless they are absolutely necessary for making the point. If you include a portion of a work word for word, "You must put the words in quotation marks and then reference the quote by including the page number" (Korb, 2008, p. 3). If you have any questions about whether something is considered plagiarism, please ask your supervisor. Visit Purdue's Online Writing Laboratory for more information on paraphrasing.
+        Quand vous utilisez d'autres sources, vous devez paraphraser avec vos propres mots et donner le crédit. Évitez les citations directes sauf si c'est absolument nécessaire.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Drafts should be Neat
+        Les Brouillons Doivent être Soignés
       </Typography>
       <Typography paragraph>
-        Some supervisors require all drafts to be typed, others allow handwritten drafts. If you are submitting a typed draft or final work, it is your responsibility, not the typist's, to correct typographical errors. Blaming a poorly typed paper on the typist is a lazy excuse for carelessness. It is your responsibility to read through the draft to correct typographical errors. Every typist will make typographical errors, so this is a necessary step in submitting every draft. If you are working with a tight deadline, be sure to allow enough time for making these necessary corrections with the typist.
+        Si vous écrivez à la main, écrivez clairement. Si votre écriture est mauvaise, votre professeur aura du mal à lire et sera frustré.
       </Typography>
       <Typography paragraph>
-        If you can submit a handwritten draft, be sure to write neatly. If you do not write your draft neatly, your supervisor will have great difficulty making suggestions. Sloppily written papers also frustrate supervisors and frustrated supervisors are not as easy to work with.
+        Un travail mal écrit frustrera votre professeur.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Avoid using Pronouns
+        Évitez les Pronoms
       </Typography>
       <Typography paragraph>
-        Pronouns such as it, they, their, her, those, etc. are very difficult for the reader to understand. Since pronouns are vague descriptors, readers oftentimes do not know what is being referred to. To be as specific as possible, do not use pronouns. For example, instead of writing "It increases students' achievement," write "Lessons on study skills increase students' achievement." After writing a draft, read the draft through once with the specific intention of trying to find every pronoun. Then change every pronoun to the noun that is being referred to.
+        "Il" ou "cela" sont vagues. Le lecteur ne sait pas de quoi vous parlez. Utilisez plutôt les noms. Par exemple, écrivez "Les leçons sur les techniques d'étude améliorent les résultats" au lieu de "Cela améliore les résultats".
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Avoid using Numbered Lists or Bulleted Points
+        Évitez les Listes Numérotées
       </Typography>
       <Typography paragraph>
-        Research papers are strictly scientific reports and therefore should avoid numbered lists and bulleted points. Both lists and bullets are valid writing styles for textbooks. However, scientific reports generally must be written in paragraph form throughout the entire paper. Therefore, convert all numbered lists and bulleted points to a complete paragraph. The only exception to this rule is a list of research questions or hypotheses, which may be written as either numbered lists or bulleted points. Refer to the following example taken from Woolfolk (2007, p. 395).
+        Écrivez en paragraphes, pas en listes. Les listes sont pour les livres de classe, pas pour les recherches scientifiques. Transformez toutes les listes en paragraphes.
       </Typography>
       <Typography paragraph>
-        Motivation to learn is encouraged when students are motivated by the following six elements:
+        La motivation pour apprendre est encouragée par six éléments:
       </Typography>
       <List>
         <ListItem>
-          <ListItemText primary="1. Intrinsic motivation, influenced by personal factors such as needs and curiosity." />
+          <ListItemText primary="1. La motivation intrinsèque, influencée par les besoins personnels et la curiosité." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="2. Students choose moderately difficult goals." />
+          <ListItemText primary="2. Les étudiants choisissent des objectifs modérément difficiles." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="3. Task involvement where the student wants to master a task." />
+          <ListItemText primary="3. L'engagement envers la tâche où l'étudiant veut maîtrise une tâche." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="4. Motivation to achieve." />
+          <ListItemText primary="4. La motivation pour réussir." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="5. Attributes successes and failures to controllable effort." />
+          <ListItemText primary="5. Attribuer les succès et les échecs à l'effort contrôlable." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="6. Belief that ability can be improved through hard work." />
+          <ListItemText primary="6. La croyance que l'habileté peut s'améliorer par le travail assidu." />
         </ListItem>
       </List>
       <Typography paragraph>
-        This numbered list should be re-written in the following paragraph.
+        Cette liste doit être réécrite en paragraphe ainsi: La motivation pour apprendre est encouragée par six éléments. D'abord, les étudiants doivent avoir une motivation intrinsèque. Ensuite, les étudiants doivent choisir des objectifs modérément difficiles. L'engagement envers la tâche est aussi important. Les étudiants doivent aussi avoir une motivation pour réussir. Finalement, les étudiants réussissent mieux quand ils croient que l'habileté peut s'améliorer par le travail assidu.
       </Typography>
       <Typography paragraph>
-        Motivation to learn is encouraged when six elements are met in the classroom. First, students must have intrinsic motivation, which is influenced by personal factors such as needs and curiosity. Students should also choose moderately difficult goals. Task involvement, where the student wants to master a task, is also important to motivation to learn. Students should also have a motivation to achieve and attribute their successes and failures to controllable effort. Finally, students have the best motivation when they believe that their ability can be improved through hard work.
+        La motivation pour apprendre est encouragée quand six éléments sont respectés. D'abord, les étudiants doivent avoir une motivation intrinsèque, influencée par des besoins personnels comme la curiosité. Deuxiémement, les étudiants doivent choisir des objectifs modérément difficiles. L'engagement envers la tâche, visant la maîtrise, est important. Les étudiants doivent aussi avoir une motivation pour réussir et attribuer leurs succès aux efforts qu'ils font. Finalement, les étudiants réussissent mieux quand ils croient que l'habileté peut s'améliorer par le travail assidu.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Use Acronyms with Caution
+        Utilisez les Acronymes avec Prudence
       </Typography>
       <Typography paragraph>
-        Acronyms (such as APA for American Psychological Association) can be useful because they save space. However, acronyms can also be confusing when used too frequently or too carelessly. Many people are familiar with the APA acronym and understand exactly what it means. However, I have read articles where acronyms are frequently used, and it is confusing for the reader, particularly somebody who is not familiar with the acronym or topic of study. For example, read the following paragraph:
+        Les acronymes peuvent être utiles mais peuvent aussi confondre le lecteur. Utilisez-les seulement pour les acronymes bien connus.
       </Typography>
       <Typography paragraph>
-        To develop literacy among young children, teachers need to develop the following skills in their pupils: phonics (PO), phonemic awareness (PA), vocabulary (VA), comprehension (CO), and reading fluency (RF). PA is the understanding that spoken words are made up of individual sounds whereas PO is understanding that those sounds within a word correspond to written letters. RF is how fluently a child reads what is written. The higher the VA of a child, the better they learn how to read. CO is important because it helps a child understand what they are reading, and RF is important because it allows a child to focus on CO instead of sounding out letters (aka PO).
+        Pour développer la littératie chez les jeunes enfants, les enseignants doivent développer les compétences suivantes: phonétique, conscience phonémique, vocabulaire, compréhension et fluidité. La conscience phonémique est la capacité à comprendre que les mots parlés sont faits de sons individuels. La phonétique est la capacité de comprendre que ces sons correspondent aux lettres écrites.
       </Typography>
       <Typography paragraph>
-        Note how confusing that paragraph is, particularly to somebody who is unaware of the five literacy skills. Whenever a new reader comes to an acronym (PO), they most likely will have to look back to the original sentence to find out what the acronym stood for. This paragraph would be much more understandable if the acronyms were canceled, and the complete phrases were used instead. For example: "...Phonemic awareness is the understanding that spoken words are made up of individual sounds whereas phonics is understanding that those sounds within a word correspond to written letters. Reading fluency is how fluently a child reads what is written..." When determining whether to use an acronym, consider the following guidelines:
+        Remarquez combien ce paragraphe est confus avec tous les acronymes. Utilisez plutôt les termes complets. Quand décider d'utiliser un acronyme, considérez ces directives:
       </Typography>
       <List>
         <ListItem>
-          <ListItemText primary="Acronyms that are well known by virtually everybody in your field are always appropriate to use (aka APA)." />
+          <ListItemText primary="Les acronymes bien connus dans votre domaine conviennent toujours." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Do not give an acronym if it is only used once. For example, if you write 'Intrinsic motivation (IM) is related to academic achievement' but then never use IM again, cancel the acronym." />
+          <ListItemText primary="Ne créez pas un acronyme s'il est utilisé qu'une seule fois." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Do not use more than two or three acronyms that you made up in the paper. Creating any additional new acronyms will only confuse the reader." />
+          <ListItemText primary="N'utilisez pas plus de deux ou trois acronymes que vous créez dans le travail." />
         </ListItem>
       </List>
       <Typography paragraph>
-        For more details on using acronyms appropriately, go to APA Acronyms.
+        Pour plus de détails, consultez un guide de rédaction scientifique.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Ask Questions
+        Posez des Questions
       </Typography>
       <Typography paragraph>
-        If you do not understand a comment by your supervisor, ask for clarification. Supervisors become extremely frustrated when students' work does not improve because they do not make the suggested changes. Most reasonable supervisors would much prefer spending the few extra minutes making a point clearer than to read another draft of the paper that makes the exact same mistake that was pointed out in a previous draft.
+        Si vous ne comprenez pas le commentaire de votre professeur, posez une question. Les professeurs ne sont pas contents quand les étudiants ne font pas les changements demandés. Un bon professeur préfère passer quelques minutes à clarifier son message que de relire le même travail avec les mêmes erreurs.
       </Typography>
     </Box>
   );

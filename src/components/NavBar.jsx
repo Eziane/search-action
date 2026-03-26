@@ -1,13 +1,13 @@
-import { AppBar, Toolbar, Typography, Button } from '@mui/material';
-import { NavLink } from 'react-router-dom';
-import DarkModeToggle from './DarkModeToggle';
+import { AppBar, Toolbar, Typography, Button } from "@mui/material";
+import { NavLink } from "react-router-dom";
+import DarkModeToggle from "./DarkModeToggle";
 
 export default function NavBar() {
   return (
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Health Research Guide
+          Guide de Recherche Éducative
         </Typography>
         <Button color="inherit" component={NavLink} to="/" end>
           Accueil

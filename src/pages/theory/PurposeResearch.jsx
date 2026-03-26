@@ -22,54 +22,40 @@ export default function PurposeResearch() {
         component="h1"
         sx={{ mb: 1, fontWeight: "bold" }}
       >
-        Conducting Educational Research
+        Faire une Recherche Éducative
       </Typography>
       <Typography
         variant="h5"
         component="h2"
         sx={{ mb: 3, color: "text.secondary" }}
       >
-        Purpose of Educational Research
+        But de la Recherche Éducative
       </Typography>
 
       <Typography paragraph>
-        Every individual has their own beliefs about the best way to teach. How
-        do they know that their beliefs are correct, though? Is it possible to
-        support your beliefs with more valid evidence than just that you believe
-        it to be true, it is true from your personal experiences, or that an
-        expert said that it is true? Sometimes two people have two opposite
-        beliefs, so is it possible to determine which person is right? For
-        example, some individuals think that pupils should be given constant
-        positive encouragement to improve academic achievement. On the other
-        hand, other individuals think that positive encouragement will decrease
-        academic achievement because a pupil will think that they do not need to
-        keep putting forth effort. These are two opposite beliefs, so which is
-        true?
+        Chacun pense avoir sa meilleure façon d'enseigner. Mais comment
+        savez-vous que votre façon est meilleure? Peut-on supporter vos créances
+        avec des preuves scientifiques? Supposons que deux personnes ont des
+        idées opposées. Qui a raison? Par exemple, certains pensent que les
+        élèves doivent recevoir des encouragements positifs constants. D'autres
+        pensent que les encouragements positifs réduisent l'effort car l'élève
+        pense qu'il ne doit pas travailler dur. Ces deux idées sont opposées.
+        Laquelle est vraie?
       </Typography>
 
       <Typography paragraph>
-        Educational research is the answer to all of the above questions.
-        Educational research uses the scientific method to study best practices
-        in teaching. An educational research study can be conducted to answer
-        the question: Will students learn better or worse when they are given
-        positive encouragement? To do this, the scientific method will be
-        employed to compare a group of students who are given positive
-        encouragement with a group of students given negative criticism and a
-        control group of students given no encouragement. After receiving
-        positive encouragement, negative criticism, or no encouragement,
-        individuals in these groups will then be compared on important dependent
-        learning variables such as their performance, effort, and motivation.
-        Once this has been done, the data will provide a definitive answer about
-        whether positive encouragement, negative criticism, or no encouragement
-        results in the best academic performance. Educational research that uses
-        the scientific method to collect scientific data can provide a definite
-        answer about best practices in teaching.
+        La recherche éducative répond à toutes ces questions. Elle utilise la
+        méthode scientifique pour étudier les meilleures pratiques
+        d'enseignement. Une étude peut comparer un groupe d'enfants avec
+        encouragements positifs, un groupe avec critiques négatives, et un
+        groupe sans rien. Après cela, on compare les groupes sur des variables
+        comme la performance, l'effort et la motivation. On peut alors avoir une
+        réponse définitive sur ce qui fonctionne mieux.
       </Typography>
 
       <Typography paragraph>
-        The purpose of educational research is to develop new knowledge about
-        the teaching-learning situation to improve educational practice.
-        Educational research can address the following variables:
+        Le but de la recherche éducative est de développer des connaissances sur
+        l'enseignement pour améliorer la pratique éducative. Elle peut étudier:
       </Typography>
 
       <List>
@@ -104,103 +90,77 @@ export default function PurposeResearch() {
         sx={{ p: 3, my: 4, backgroundColor: "background.default" }}
       >
         <Typography variant="h6" component="h3" sx={{ mb: 2 }}>
-          Example: Siegler & Ramani (2009)
+          Exemple: Siegler et Ramani (2009)
         </Typography>
         <Typography paragraph>
-          Siegler & Ramani (2009) conducted a research study to examine best
-          practices of teaching number skills to young children. Maths teachers
-          typically teach number skills by asking pupils to recite the number
-          string (e.g., "Say after me: 1, 2, 3..."), count objects (e.g., "How
-          many beans are there?"), and name numerals (e.g., "Which number is
-          written on the board?"). However, Siegler and Ramani looked at a
-          theory of how young children understand number and thought that they
-          could come up with a better and more engaging method of teaching
-          number skills. They developed a number game...
+          Siegler et Ramani (2009) ont mené une étude pour examiner les
+          meilleures pratiques pédagogiques pour enseigner les nombres aux
+          jeunes enfants. Les enseignants utilisent généralement la répétition
+          numérique, le comptage d'objets et l'identification de numéros écrits.
+          Mais Siegler et Ramani ont imaginé une meilleure méthode plus
+          engageante. Ils ont développé un jeu...
         </Typography>
         <Typography paragraph>
-          The game simply requires a piece of paper with the numbers 1 to 10
-          written across it, two markers (the smiley faces - these can be bottle
-          caps), and a spinner with the numbers 1 and 2. (Alternatively, the
-          numbers 1 and 2 can be written on pieces of paper and put into a cup).
-          To play the game, the players take turns spinning the spinner (or pick
-          a number from the cup) and move their marker that many spaces, naming
-          the numbers they land on. ("I am on the number four. I picked the
-          number two. I move five, six."). Children at a school were randomly
-          placed in either a traditional maths group or the game group. Children
-          in the traditional maths group received normal maths instruction
-          whereas children in the game group played this game. Both groups spent
-          an equal amount of time studying mathematics. After a few weeks, all
-          of the children were tested on their maths skills. These researchers
-          found that on average, children in the game group performed better
-          than the traditional group in maths estimation, comparing numbers, and
-          arithmetic! Siegler and Ramani found a better and more engaging way of
-          teaching maths, and they have scientific evidence based on the
-          children's maths test scores to support that their way of teaching is
-          more effective than the traditional method. They can conclude that
-          teachers who use this game to teach number skills will help their
-          students do better in mathematics.
+          Le jeu utilise un papier avec les numéros 1 à 10 et un spinner avec 1
+          et 2. Les joueurs alternent pour tourner le spinner et déplacer leurs
+          marqueurs en nommant les numéros. Les enfants d'une école ont été
+          divisés aléatoirement: un groupe traditionnel et un groupe jeu. Après
+          quelques semaines, tous ont été testés. Le groupe jeu a mieux
+          performé! Siegler et Ramani ont découvert une meilleure façon
+          d'enseigner les nombres avec des preuves scientifiques.
         </Typography>
       </Paper>
 
       <Typography paragraph>
-        If you are conducting an educational psychology research study, then
-        your topic will be primarily focused on individuals in an educational
-        context. The purpose of psychological research is to study key variables
-        about a human being: how they behave, think, feel, believe, etc. As
-        such, psychological research must examine individual characteristics,
-        not group structures. Therefore, an educational psychology study will
-        examine student performance, student motivation, student attitudes,
-        student beliefs, teachers' knowledge, etc. However, an educational
-        psychology study will not examine school-level variables, such as school
-        facilities, government funding, etc.
+        Si vous faites une recherche en psychologie éducative, votre sujet se
+        focalisera sur les individus dans un contexte éducatif. Le but de la
+        recherche psych ologique est d'étudier les variables clés: comment les
+        gens se comportent, pensent, ressentent, croient, etc. La recherche en
+        psychologie éducative examinera la performance des étudiants, leur
+        motivation, leurs attitudes, leurs croyances et les connaissances des
+        enseignants.
       </Typography>
 
       <Typography paragraph>
-        Whatever type of educational research you are pursuing, though, recall
-        that the purpose of educational research is to improve educational
-        practice. Having an understanding of educational research and conducting
-        high quality educational research can have the following benefits for
-        educational practice:
+        Peu importe le type de recherche que vous menez, rappelez-vous que le
+        but est d'améliorer la pratique éducative. Voici les bénéfices de la
+        recherche éducative:
       </Typography>
 
       <List>
         <ListItem>
-          <ListItemText primary="Provide instruction that maximizes students' learning." />
+          <ListItemText primary="Fournir l'enseignement qui maximise l'apprentissage." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Understand and support the developmental needs of pupils." />
+          <ListItemText primary="Comprendre et soutenir les besoins des élèves." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Develop an educational environment that supports students' motivation." />
+          <ListItemText primary="Développer un environnement qui soutient la motivation." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Provide solutions to educational problems." />
+          <ListItemText primary="Fournir des solutions aux problèmes éducatifs." />
         </ListItem>
       </List>
 
       <Typography paragraph>
-        Therefore, develop a research study that can have a significant impact
-        on improving the teaching-learning situation. Because educational
-        research can have significant implications for the teaching-learning
-        situation, it is essential that educational researchers complete their
-        research projects in good faith. Poorly conducted research can cause
-        further harm to the educational process than no research at all.
-        Consequently, under no circumstances should an educational researcher
-        "cut corners" to get their project completed faster or easier.
-        Educational researchers also have a responsibility to check and double
-        check their work to ensure that their methods are valid, their
-        calculations are correct, and their conclusions accurately reflect the
-        data that has been collected. Careful, thoughtful, and trustworthy
-        research can go a long way in improving education in Nigeria.
+        Développez une étude qui aura un impact significatif sur la situation
+        d'enseignement-apprentissage. Puisque la recherche éducative peut avoir
+        des implications importantes, il est essentiel que les chercheurs
+        complètent leurs projets honêpêtement. La recherche mal conduite cause
+        plus de mal qu'aucune recherche! Les chercheurs éducatifs ne doivent
+        jamais "couper les coins". Ils ont une responsabilité de vérifier que
+        leurs méthodes sont valides, leurs calculs corrects et leurs conclusions
+        exacts.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4 }}>
-        Reference
+        Référence
       </Typography>
       <Typography paragraph>
-        Siegler, R. S. & Ramani, G. B. (2009). Playing linear number board games
-        - but not circular ones - improves low-income preschoolers' numerical
-        understanding. Journal of Educational Psychology, 101, 545-560.
+        Siegler, R. S. & Ramani, G. B. (2009). La jouer des jeux de nombres
+        linéaires - mais pas les circulaires - améliore la compréhension
+        numérique des enfants d'écoles pauvres. Journal of Educational
+        Psychology, 101, 545-560.
       </Typography>
     </Box>
   );

@@ -8,70 +8,48 @@ export default function WritingOverview() {
         component="h1"
         sx={{ mb: 1, fontWeight: "bold" }}
       >
-        Conducting Educational Research
+        Faire une Recherche Éducative
       </Typography>
       <Typography
         variant="h5"
         component="h2"
         sx={{ mb: 3, color: "text.secondary" }}
       >
-        Overview to Writing a Research Paper
+        Guide pour Écrire un Travail de Recherche
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
         Conceptualize the Research Study First
       </Typography>
       <Typography paragraph>
-        Just like the bible is rarely read from the beginning to the end, so too
-        is a research study rarely written from beginning to end. Determining
-        the research methods before writing the rest of the paper will help the
-        entire paper to be more focused. It would be a shame to spend hours
-        creating well written Chapters 1 and 2 only to realize that there is no
-        way to actually conduct the research study! Furthermore, when you know
-        your research methods, then you can build a stronger argument for the
-        rationale of the study that is necessary in Chapters 1 and 2. Therefore,
-        begin writing your research project by writing the Purpose and Research
-        Questions/Hypotheses from Chapter 1. Then write the entire Methods
-        Section, Chapter 3. Once these three or four sections are well
-        developed, then it is easier and more efficient to write the rest of
-        Chapter 1 and Chapter 2. The guidelines in the Steps in Conducting
-        Scientific Research will help you accomplish this.
+        Comme la Bible, une recherche ne se lit pas du début à la fin. Il est
+        important de planifier les méthodes d'abord. Cela aide à rendre tout le
+        travail plus cohérent. Écrivez d'abord vos objectifs, puis les méthodes.
+        Ensuite, écrivez le reste.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
         Revise, Revise, Revise
       </Typography>
       <Typography paragraph>
-        Writing is not a one-way process. You must reread and revise your paper
-        many times before it will become a high-quality work. As a general rule,
-        each chapter should be revised at least two times before submitting it
-        to your supervisor. I oftentimes feel like I revise my students' work
-        more than they do! When completing my thesis, I would revise each
-        chapter at least five times before resubmitting it to my supervisor. In
-        addition to revising your own work, partner with at least one other
-        student and make suggestions on each other's work. This helps you get
-        additional perspectives on what you have written.
+        L'écriture n'est pas un processus unique. Vous devez relire et corriger
+        votre travail plusieurs fois. En général, chaque chapitre doit être
+        corrigé au moins deux fois. Demandez aussi à un ami de relire votre
+        travail.
       </Typography>
       <Typography paragraph>
-        Each chapter will be returned by your supervisor multiple times with
-        suggestions. This is a natural part of the writing process. Only the
-        sections with feedback noted by your supervisor have to be completely
-        changed. The sections that the supervisor does not comment on do not
-        need major changes. Continue rereading the sections with no comments for
-        minor wording changes, but you do not need to make substantial changes
-        to these sections. Instead, focus your energy on changing the sections
-        that have comments by your supervisor.
+        Votre professeur vous renverra votre travail plusieurs fois avec des
+        conseils. C'est normal. Seules les sections avec des commentaires
+        doivent être changées.
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
         Avoid Plagiarism
       </Typography>
       <Typography paragraph>
-        Plagiarism is a serious, dishonest offense that is not only unethical,
-        but can result in expulsion from the university. Plagiarism is any
-        attempt to present another person's ideas or words as your own.
-        According to plagiarism.org, the following behaviors are considered
-        plagiarism:
+        Le plagiat est une tricherie grave. C'est quand vous présentez les idées
+        d'une autre personne comme les vôtres. Voici ce qui est considéré comme
+        du plagiat:
       </Typography>
       <List>
         <ListItem>

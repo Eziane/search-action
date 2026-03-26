@@ -28,14 +28,14 @@ export default function ProcessIntro() {
         component="h1"
         sx={{ mb: 1, fontWeight: "bold" }}
       >
-        Conducting Educational Research
+        Faire une Recherche Éducative
       </Typography>
       <Typography
         variant="h5"
         component="h2"
         sx={{ mb: 3, color: "text.secondary" }}
       >
-        Introduction to the Research Process
+        Introduction au Processus de Recherche
       </Typography>
       <Typography variant="subtitle2" sx={{ mb: 2 }}>
         Adapted from Singleton & Straits (2010)

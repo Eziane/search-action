@@ -33,40 +33,39 @@ export default function PhilosophyResearch() {
         component="h1"
         sx={{ mb: 1, fontWeight: "bold" }}
       >
-        Conducting Educational Research
+        Faire une Recherche Éducative
       </Typography>
       <Typography
         variant="h5"
         component="h2"
         sx={{ mb: 3, color: "text.secondary" }}
       >
-        Philosophy of Research
+        Philosophie de la Recherche
       </Typography>
 
       <Typography paragraph>
-        Scientific research studies require evidence to support the conclusions
-        that are made. Below are four types of evidence and an example of each.
-        Think about each type of evidence and decide which qualify as a
-        legitimate source of evidence for science.
+        La recherche scientifique nécessite des preuves pour soutenir les
+        conclusions. Ci-dessous sont quatre types de preuves. Pensez à chacun et
+        décidez lequel est une source de preuve légitime.
       </Typography>
 
       <List>
         <ListItem>
-          <ListItemText primary="Authority. According to Prof Akpan, children learn better in schools that have lots of educational materials." />
+          <ListItemText primary="Autorité. Selon le Prof Akpan, les enfants apprennent mieux dans les écoles ayant beaucoup de matériel éducatif." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Tradition. Massaging babies helps them grow faster." />
+          <ListItemText primary="Tradition. Masser les bébés aide leur croissance." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Common Sense. Beating children helps them behave better." />
+          <ListItemText primary="Sens Commun. Frapper les enfants les aide à se comporter mieux." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Observation. 69% of math teachers in Yobe State use beating as a form of punishment." />
+          <ListItemText primary="Observation. 69% des enseignants de math au Yobe utilisent les coups comme punition." />
         </ListItem>
       </List>
 
       <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
-        Answers
+        Réponses
       </Typography>
 
       <List>
@@ -85,45 +84,41 @@ export default function PhilosophyResearch() {
       </List>
 
       <Typography paragraph>
-        There are three key principles that determine whether a research
-        question qualifies as scientific research.
+        Il y a trois principes clés pour déterminer si une question est une
+        recherche scientifique.
       </Typography>
 
       <List>
         <ListItem>
-          <ListItemText primary="1. Empirical. Scientific questions are answered through systematic observation. This means that the question must be answered by data that is experienced directly or indirectly through the five senses. Direct observation is something that the scientist can clearly see, such as height. However, not everything can be seen directly, such as a person's intelligence. This requires indirect observation, such as a score on an intelligence test." />
+          <ListItemText primary="1. Empirique. Les questions scientifiques sont répondues par l'observation systématique. La question doit être répondue par des données expérimentées par les cinq sens." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="2. Verifiable. Observations must be collected under specific conditions that can be confirmed by all normal individuals. Replication of scientific observations is a foundational principle in science: data is not valid unless it can be duplicated by other researchers. This means that researchers need to clearly articulate the exact research design, sample and sampling procedures, instruments, data collection procedures, and data analyses that were used so any other researcher can exactly replicate the results to verify their authenticity." />
+          <ListItemText primary="2. Vérifiable. Les observations doivent être collectes dans des conditions spécifiques que tout le monde peut confirmer. La réplication est un principe fondamental: les données ne sont valides que si d'autres chercheurs peuvent reproduire les résultats." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="3. Control. Scientific observations must be collected using methods that attempt to control the conditions of the study in the following ways:" />
+          <ListItemText primary="3. Contrôle. Les observations scientifiques doivent être collectes avec des méthodes qui contrôlent les conditions de l'étude." />
         </ListItem>
       </List>
 
       <List sx={{ pl: 4 }}>
         <ListItem>
-          <ListItemText primary="Eliminate sources of bias. Research can be biased in the sample chosen so it is not representative of the population, biased in the way that items are worded on the instrument, or biased in the procedures for data collection. More on each of these sources of bias will be discussed in their appropriate chapters." />
+          <ListItemText primary="Éliminer les sources de biais. La recherche peut être biaisée dans l'échantillon choisi, la façon que les éléments sont formulés, ou les procédures de collecte." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Reduce error that may distort the results. Error can be introduced into a study because the questionnaire is poorly designed, the questionnaire was administered in undesirable conditions, or the questionnaire was poorly scored and analyzed." />
+          <ListItemText primary="Réduire l'erreur qui peut déformer les résultats. L'erreur peut être introduite par un mauvais questionnaire, de mauvaises conditions ou une mauvaise analyse." />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Rule out all other alternate explanations of the findings. There can be multiple ways to explain research results. For example, a researcher might conclude that a computerized instruction was effective because students in the treatment group performed better on a test than students in the control group. However, an alternate explanation might be that different teachers were used in the two groups, and students in the treatment had a better teacher. To control for this alternative explanation, the researcher must thoughtfully plan the study's methods to control for all other explanations, perhaps by using the same teacher for both groups." />
+          <ListItemText primary="Exclure toutes les explications alternatives. Il peut y avoir plusieurs façons d'expliquer les résultats. Un chercheur doit planifier les méthodes pour contrôler toutes les autres explications possibles." />
         </ListItem>
       </List>
 
       <Typography paragraph>
-        Conducting scientific research requires considerable thought and
-        planning in advance of collecting observations (subsequently called
-        data). Thus, it must be emphatically noted that a researcher,
-        particularly a beginning researcher, MUST plan the study's methods well
-        in advance of collecting data. Planning a study will take weeks and
-        months of planning the methods and developing the instrument. However,
-        the outcome of a well-planned and well-conducted research study is both
-        informative and useful for developing excellent educational practices.
-        Educational research is an exciting endeavor that has the potential to
-        greatly improve society.
+        La recherche scientifique nécessite une planification considérable et
+        avancée. Un chercheur, particulièrement un débutant, DOIT planifier les
+        méthodes bien avant de collecter les données. La planification prend des
+        semaines et des mois. Mais le résultat d'une recherche bien planifiée
+        est informatif et utile pour développer d'excellentes pratiques
+        éducatives.
       </Typography>
     </Box>
   );

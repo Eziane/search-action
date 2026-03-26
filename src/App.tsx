@@ -72,7 +72,7 @@ export default function App() {
       </Container>
       <Container component="footer" sx={{ mt: 'auto', py: 2, borderTop: '1px solid #ddd' }}>
         <Typography variant="body2" color="text.secondary" align="center">
-          © 2025 Guide in Conducting a Research Study • Mohamed El Hajji, Open source (MIT)
+          © 2025 Guide Complet pour Mener une Étude de Recherche Éducative • Mohamed El Hajji, Open source (MIT)
         </Typography>
       </Container>
     </>
