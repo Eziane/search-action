@@ -8,26 +8,26 @@ import {
 } from "@mui/material";
 
 const theoryLinks = [
-  { path: "/overview-research", label: "Aperçu de la recherche scientifique" },
-  { path: "/purpose-research", label: "Finalité de la recherche en santé" },
-  { path: "/philosophy-research", label: "Philosophie de la recherche" },
-  { path: "/ethics-research", label: "Considérations éthiques" },
-  { path: "/process-intro", label: "Introduction au processus de recherche" },
-  { path: "/writing-overview", label: "Aperçu de la rédaction d’une étude" },
-  { path: "/fonctions-research", label: "Fonctions et niveaux de recherche" },
+  { path: "/overview-research", label: "Overview of Research" },
+  { path: "/purpose-research", label: "Purpose of Educational Research" },
+  { path: "/philosophy-research", label: "Philosophy of Research" },
+  { path: "/ethics-research", label: "Ethical Considerations in Research" },
+  { path: "/process-intro", label: "Introduction to the Research Process" },
+  { path: "/writing-overview", label: "Overview to Writing a Research Paper" },
+  { path: "/fonctions-research", label: "Functions of Research" },
 ];
 
 export default function Theory() {
   return (
     <Box component="section" sx={{ maxWidth: "max-content", mx: "auto", p: 2 }}>
       <Typography variant="h1" sx={{ mb: 4 }}>
-        Ressources théoriques
+        Theoretical Resources
       </Typography>
 
       <Typography variant="body1" sx={{ mb: 4 }}>
-        Cette section regroupe les concepts de base nécessaires pour comprendre
-        et pratiquer la recherche scientifique en santé. Vous pouvez parcourir
-        chaque thème séparément.
+        This section groups the basic concepts necessary to understand and
+        practice scientific research in education. You can browse each theme
+        separately.
       </Typography>
 
       <List>

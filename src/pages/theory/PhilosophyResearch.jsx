@@ -28,110 +28,103 @@ import { NavLink } from "react-router-dom";
 export default function PhilosophyResearch() {
   return (
     <Box component="section" sx={{ maxWidth: "800px", mx: "auto", p: 3 }}>
-      <Typography variant="h4" component="h1" sx={{ mb: 1, fontWeight: "bold" }}>
+      <Typography
+        variant="h4"
+        component="h1"
+        sx={{ mb: 1, fontWeight: "bold" }}
+      >
+        Conducting Educational Research
+      </Typography>
+      <Typography
+        variant="h5"
+        component="h2"
+        sx={{ mb: 3, color: "text.secondary" }}
+      >
         Philosophy of Research
       </Typography>
-      <Typography paragraph sx={{ color: "text.secondary" }}>
-        La recherche scientifique exige des preuves objectives pour soutenir ses conclusions. Une recherche valide doit reposer sur des données observables, vérifiables et reproductibles.
-      </Typography>
+
       <Typography paragraph>
-        Au-delà de la méthode, la recherche repose sur une vision épistémologique : comprendre le monde, tester des hypothèses et générer des connaissances utiles. En santé, cela implique de concilier rigueur scientifique et respect des patients.
+        Scientific research studies require evidence to support the conclusions
+        that are made. Below are four types of evidence and an example of each.
+        Think about each type of evidence and decide which qualify as a
+        legitimate source of evidence for science.
       </Typography>
 
-      <Typography variant="h5" component="h2" sx={{ mt: 4, mb: 2 }}>
-        Qu’est-ce qui peut être considéré comme preuve ?
-      </Typography>
-      <Grid container spacing={2}>
-        <Grid item xs={12} md={6}>
-          <Alert severity="error" icon={<Cancel />}>
-            <AlertTitle>Autorité</AlertTitle>
-            « Selon le Professeur X... » - L'avis d'un expert n'est pas une preuve en soi.
-          </Alert>
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <Alert severity="error" icon={<Cancel />}>
-            <AlertTitle>Tradition</AlertTitle>
-            « Dans notre communauté... » - Les traditions doivent être validées scientifiquement.
-          </Alert>
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <Alert severity="error" icon={<Cancel />}>
-            <AlertTitle>Bon sens</AlertTitle>
-            « Réduire son alimentation... » - Le bon sens peut être trompeur.
-          </Alert>
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <Alert severity="success" icon={<CheckCircle />}>
-            <AlertTitle>Observation</AlertTitle>
-            « Dans une étude... » - Seule l'observation systématique et contrôlée fournit des preuves.
-          </Alert>
-        </Grid>
-      </Grid>
-
-      <Typography variant="h5" component="h2" sx={{ mt: 4, mb: 2 }}>
-        Principes fondamentaux de la recherche scientifique
-      </Typography>
       <List>
         <ListItem>
-          <ListItemIcon><FactCheck color="primary" /></ListItemIcon>
-          <ListItemText primary="Empirique" secondary="Les réponses sont trouvées par des observations systématiques, directes ou indirectes." />
+          <ListItemText primary="Authority. According to Prof Akpan, children learn better in schools that have lots of educational materials." />
         </ListItem>
         <ListItem>
-          <ListItemIcon><VerifiedUser color="primary" /></ListItemIcon>
-          <ListItemText primary="Vérifiable" secondary="Les résultats doivent être reproductibles par d’autres chercheurs, avec des méthodes clairement décrites." />
+          <ListItemText primary="Tradition. Massaging babies helps them grow faster." />
         </ListItem>
         <ListItem>
-          <ListItemIcon><Gavel color="primary" /></ListItemIcon>
-          <ListItemText primary="Contrôlée" secondary="Limiter les biais, réduire les erreurs et écarter les explications alternatives." />
+          <ListItemText primary="Common Sense. Beating children helps them behave better." />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary="Observation. 69% of math teachers in Yobe State use beating as a form of punishment." />
         </ListItem>
       </List>
 
-      <Typography variant="h5" component="h2" sx={{ mt: 4, mb: 2 }}>
-        Fondements épistémologiques
+      <Typography variant="h6" sx={{ mt: 4, mb: 2 }}>
+        Answers
       </Typography>
+
       <List>
         <ListItem>
-          <ListItemText primary={<strong>Déduction :</strong>} secondary="Aller du général au particulier (ex. tester une théorie générale sur un patient)." />
+          <ListItemText primary="Authority. No. Not all authorities are created equal. Some authorities are right, other authorities are wrong. Therefore, authority is not a source of evidence for a scientific research study unless they support their statements with valid observations based on scientific research. This is important to remember when developing a questionnaire. In most cases, authorities cannot report on the behavior of another person or the effectiveness of a program." />
         </ListItem>
         <ListItem>
-          <ListItemText primary={<strong>Induction :</strong>} secondary="Partir du particulier vers le général (ex. observer un phénomène et formuler une règle)." />
+          <ListItemText primary="Tradition. No. Some traditions are good and effective, other traditions are either bad (e.g., killing twins) or ineffective (e.g., rain dances). Traditions can be the object of a scientific study. For example, a researcher might conduct a scientific study to determine whether massaging babies really does help them to grow faster. But traditions cannot be used as a source of evidence for scientific research." />
         </ListItem>
         <ListItem>
-          <ListItemText primary={<strong>Hasard et probabilité :</strong>} secondary="Accepter l’incertitude et quantifier le risque (ex. p-value, IC95%)." />
+          <ListItemText primary="Common Sense. No. Like traditions, some common sense behaviors are effective and others are ineffective. Common sense beliefs can also be the object of a scientific study. Researchers need to conduct research in Nigeria to determine whether beating students really is effective in the long-term." />
         </ListItem>
         <ListItem>
-          <ListItemText primary={<strong>Valeurs :</strong>} secondary="Adopter la rigueur, la transparence et la reproductibilité." />
+          <ListItemText primary="Observation. Yes. Observation is the only valid source of evidence for scientific research. The purpose of the Methods section of a research study is to identify research instruments and procedures that will be used to collect observations that are valid and useful for answering a research question or hypothesis." />
         </ListItem>
       </List>
 
-      <Paper elevation={2} sx={{ p: 3, my: 4 }}>
-        <Typography variant="h6" component="h3" sx={{ mb: 2 }}>
-          Planification : la clé du succès
-        </Typography>
-        <Typography paragraph>
-          Une recherche sérieuse se planifie bien avant la collecte pour garantir des données fiables. Cela inclut de définir le problème, choisir les instruments, et prévoir la logistique et l'éthique.
-        </Typography>
-      </Paper>
+      <Typography paragraph>
+        There are three key principles that determine whether a research
+        question qualifies as scientific research.
+      </Typography>
 
-      <Alert severity="info" icon={<Psychology />} sx={{ my: 3 }}>
-        <AlertTitle>Conclusion</AlertTitle>
-        La philosophie de la recherche en santé combine preuves empiriques, vision épistémologique, rigueur et éthique. Seule une recherche bien planifiée peut améliorer la qualité des soins et les politiques de santé.
-      </Alert>
+      <List>
+        <ListItem>
+          <ListItemText primary="1. Empirical. Scientific questions are answered through systematic observation. This means that the question must be answered by data that is experienced directly or indirectly through the five senses. Direct observation is something that the scientist can clearly see, such as height. However, not everything can be seen directly, such as a person's intelligence. This requires indirect observation, such as a score on an intelligence test." />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary="2. Verifiable. Observations must be collected under specific conditions that can be confirmed by all normal individuals. Replication of scientific observations is a foundational principle in science: data is not valid unless it can be duplicated by other researchers. This means that researchers need to clearly articulate the exact research design, sample and sampling procedures, instruments, data collection procedures, and data analyses that were used so any other researcher can exactly replicate the results to verify their authenticity." />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary="3. Control. Scientific observations must be collected using methods that attempt to control the conditions of the study in the following ways:" />
+        </ListItem>
+      </List>
 
-      <Grid container justifyContent="space-between" sx={{ mt: 5 }}>
-        <Grid item>
-          <MuiLink component={NavLink} to="/overview-research" sx={{ display: 'flex', alignItems: 'center' }}>
-            <ArrowForward sx={{ transform: 'rotate(180deg)', mr: 1 }} />
-            Return to Steps : Overview of Scientific Research
-          </MuiLink>
-        </Grid>
-        <Grid item>
-          <MuiLink component={NavLink} to="/ethics-research" sx={{ display: 'flex', alignItems: 'center' }}>
-            NEXT : Ethical Considerations of Conducting Research
-            <ArrowForward sx={{ ml: 1 }} />
-          </MuiLink>
-        </Grid>
-      </Grid>
+      <List sx={{ pl: 4 }}>
+        <ListItem>
+          <ListItemText primary="Eliminate sources of bias. Research can be biased in the sample chosen so it is not representative of the population, biased in the way that items are worded on the instrument, or biased in the procedures for data collection. More on each of these sources of bias will be discussed in their appropriate chapters." />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary="Reduce error that may distort the results. Error can be introduced into a study because the questionnaire is poorly designed, the questionnaire was administered in undesirable conditions, or the questionnaire was poorly scored and analyzed." />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary="Rule out all other alternate explanations of the findings. There can be multiple ways to explain research results. For example, a researcher might conclude that a computerized instruction was effective because students in the treatment group performed better on a test than students in the control group. However, an alternate explanation might be that different teachers were used in the two groups, and students in the treatment had a better teacher. To control for this alternative explanation, the researcher must thoughtfully plan the study's methods to control for all other explanations, perhaps by using the same teacher for both groups." />
+        </ListItem>
+      </List>
+
+      <Typography paragraph>
+        Conducting scientific research requires considerable thought and
+        planning in advance of collecting observations (subsequently called
+        data). Thus, it must be emphatically noted that a researcher,
+        particularly a beginning researcher, MUST plan the study's methods well
+        in advance of collecting data. Planning a study will take weeks and
+        months of planning the methods and developing the instrument. However,
+        the outcome of a well-planned and well-conducted research study is both
+        informative and useful for developing excellent educational practices.
+        Educational research is an exciting endeavor that has the potential to
+        greatly improve society.
+      </Typography>
     </Box>
   );
 }
